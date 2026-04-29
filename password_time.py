@@ -18,6 +18,6 @@ total_combinations = character_set_size ** password_length
 cracking_time_seconds = total_combinations / attempts_per_second
 
 # Outputs
-print(f"Alright {username}, it would take approximately {cracking_time_seconds} seconds to crack your password.")
+print(f"{username}, it would take approximately {cracking_time_seconds} seconds to crack your password.")
 print(f"That's with a password of length {password_length} and a character set size of {character_set_size}.")
 #'''
