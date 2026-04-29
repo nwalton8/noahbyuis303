@@ -1,1 +1,31 @@
+#GPA Calculator
+
+name = input("Student name: ")
+temp = 1
+grade1 = int(input(f"Course {temp} grade point:"))
+temp = 2
+grade2 = int(input(f"Course {temp} grade point:"))
+temp = 3
+grade3 = int(input(f"Course {temp} grade point:"))
+temp = 1
+credit1 = int(input(f"Course {temp} credits:"))
+temp = 2
+credit2 = int(input(f"Course {temp} credits:"))
+temp = 3
+credit3 = int(input(f"Course {temp} credits:"))
+
+#Processes
+
+total_credits = credit1 + credit2 + credit3
+total_grade_points = (grade1 * credit1) + (grade2 * credit2) + (grade3 * credit3)
+gpa = total_grade_points / total_credits    
+
+#Outputs
+
+print(f"{name}'s Reprt Card")
+print(f"Credits taken: {total_credits}")
+print(f"Course 1: {grade1} credits: {credit1}\n")
+print(f"Course 2: {grade2} credits: {credit2}\n")
+print(f"Course 3: {grade3} credits: {credit3}\n")
+print(f"GPA: {gpa}")
 
