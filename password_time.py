@@ -6,9 +6,6 @@
 #  This program calculates the time it would take to crack a password
 #  This program is estimating it for someone using a brute force attack method.
 
-# Title
-print("\nPassword Cracking Time Estimator!\n")
-
 # Inputs
 username = input("\nEnter the username: ")
 password_length = int(input("\nEnter the password length: "))

@@ -6,9 +6,6 @@
 #  This program estimates how many gaming sessions it would take to reach a certain level.
 #  The user will input their current level, the target level, and the average XP earned per gaming session.
 
-# Title
-print("\nWelcome to the XP Calculator!\n")
-
 # Inputs
 current_xp = int(input("\nEnter your current XP: "))
 target_xp = int(input("\nEnter the target XP: "))
