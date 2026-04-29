@@ -1,6 +1,6 @@
 #'''
 #  Noah Walton
-#  IS 303 - A02
+#  IS 303 - A01
 
 #  XP Calculator
 #  This program estimates how many gaming sessions it would take to reach a certain level.
